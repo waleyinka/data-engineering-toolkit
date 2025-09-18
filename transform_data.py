@@ -50,6 +50,5 @@ print("Merging complete. Sample:")
 print(merged_df.head())
 
 # Save transformed data
-merged_df.to_csv("transformed_data.csv", index=False)
-print("Transformed data saved to transformed_data.csv")
-
+merged_df.to_csv("transformed_sales_data.csv", index=False)
+print("Transformed data saved to transformed_sales_data.csv")
