@@ -4,7 +4,7 @@ import pandas as pd
 
 
 # Load the dataset
-df = pd.read_csv("raw_data.csv")
+df = pd.read_csv("raw_sales_data.csv")
 print("Initial data shape:", df.shape)
 
 
@@ -30,5 +30,5 @@ if "date_column" in df.columns:
 
 
 # Save the cleaned dataset
-df.to_csv("cleaned_data.csv", index=False)
+df.to_csv("cleaned_sales_data.csv", index=False)
 print("Cleaned data saved to cleaned_data.csv")
