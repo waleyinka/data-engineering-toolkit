@@ -103,7 +103,7 @@ Follow these steps to contribute to the toolkit and enhance its functionality.
 1. Fork this repository and clone it locally.
 
    ```bash
-   git clone [https://github.com/waleyinka/data-engineering-toolkit.git](https://github.com/waleyinka/data-engineering-toolkit.git)
+   git clone https://github.com/waleyinka/data-engineering-toolkit.git
    cd data-engineering-toolkit
 
 2. Create a new feature branch from develop using the format below. All new work should be done on a dedicated `feature branch`.
