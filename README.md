@@ -20,7 +20,9 @@ Here is an overview of the Gitflow branching model used for this project::
 
 - ***Feature branches***: *(feature/branch-name)* for new features or scripts.
 
+
 ---
+
 
 ## Documentation
 
@@ -47,8 +49,8 @@ This repository is organized into feature-specific branches and modules:
 
 ---
 
-## Code Examples
 
+## Code Examples
 
 *Example: Data Cleaning*
 
@@ -89,18 +91,18 @@ print("Cleaned data saved to cleaned_data.csv")
 
 ---
 
+
 ## Contribution Guide
 
-Contributions are welcome! Follow these steps to contribute to the toolkit and enhance its functionality. Please follow the instruction below;
+Follow these steps to contribute to the toolkit and enhance its functionality.
 
-    1. Fork this repository and clone it locally.
+1. Fork this repository and clone it locally.
 
-    ```bash
-    git clone https://github.com/your-username/data-engineering-toolkit.git
-    cd data-engineering-toolkit
-    ```
+   ```bash
+   git clone [https://github.com/your-username/data-engineering-toolkit.git](https://github.com/your-username/data-engineering-toolkit.git)
+   cd data-engineering-toolkit
 
-    2. Create a new `feature branch` from `develop` using the format below. ***All new work should be done on a dedicated `feature branch`.***
+2. Create a new feature branch from develop using the format below. All new work should be done on a dedicated `feature branch`.
 
     ```bash
     git checkout develop
@@ -109,16 +111,16 @@ Contributions are welcome! Follow these steps to contribute to the toolkit and e
     ```
 
 
-    3. Commit changes frequently with clear commit messages.
+3. Commit changes frequently with clear commit messages.
 
 
-    4. Push your branch and open a Pull Request from your `feature branch` into `develop`.
+4. Push your branch and open a Pull Request from your `feature branch` into `develop`.
 
-        - Include a summary of changes.
+    - Include a summary of changes.
 
-        - Add code examples or screenshots if relevant.
+    - Add code examples or screenshots if relevant.
 
-        - Provide testing instructions.
+    - Provide testing instructions.
 
 
-    6. The PR will be reviewed and once approved, it will be merged into `develop`.
+6. The PR will be reviewed and once approved, it will be merged into `develop`.
