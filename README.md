@@ -21,9 +21,6 @@ Here is an overview of the Gitflow branching model used for this project::
 - ***Feature branches***: *(feature/branch-name)* for new features or scripts.
 
 
----
-
-
 ## Documentation
 
 This repository is organized into feature-specific branches and modules:
