@@ -2,14 +2,11 @@ import pandas as pd
 import psycopg2
 from sqlalchemy import create_engine
 
-
 # Load cleaned transformed dataset
 df = pd.read_csv("transformed_sales_data.csv")  
 
-
 # Step 2: Connect to Data Warehouse - Example: PostgreSQL
 engine = create_engine("postgresql://user:password@localhost:5432/datawarehouse")
-
 
 # Step 3: Load data into target table
 df.to_sql(
